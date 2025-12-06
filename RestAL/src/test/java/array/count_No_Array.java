@@ -25,7 +25,7 @@ public class count_No_Array {
 	        // Print the frequency map
 	        System.out.println(map);
 
-	       System.out.println("local branch");
+	       System.out.println("local2 branch");
 
 		    System.out.println("===============================");
 
