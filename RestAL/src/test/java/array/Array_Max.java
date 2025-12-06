@@ -9,7 +9,7 @@ public class Array_Max {
 			if(a[i]>max) {
 				max=a[i];}
 			}
-		System.out.println("local ==="+max); 
+		System.out.println("maximum number2 ==="+max); 
 		//==========================================================
 		int min=a[0]; 
 		for (int i=1;i<a.length;i++)
@@ -22,3 +22,4 @@ public class Array_Max {
 		System.out.println("minimum number ==="+min);
 	}
 }
+
