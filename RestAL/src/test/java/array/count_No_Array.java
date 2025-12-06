@@ -24,7 +24,7 @@ public class count_No_Array {
 
 	        // Print the frequency map
 	        System.out.println(map);
-	       System.out.println("abc");
+	       System.out.println("local code ");
 		    System.out.println("===============================");
 
 	        // Count and print occurrences for each number from 0 to 99
