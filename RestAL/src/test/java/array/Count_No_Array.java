@@ -13,12 +13,12 @@ public class Count_No_Array {
 
 	        // Count occurrences of each number in the array
 	        for (int i = 0; i < b.length; i++) {
-	        	  System.out.println("local2 branch");
+	        	 System.out.println("local3 branch");
 	            int c = b[i];
 	            if (map.containsKey(c)) {
 	                int cnt = map.get(c);
 	                map.put(c, ++cnt);
-	                System.out.println("local2 branch");
+	                System.out.println("local3 branch");
 	            } else {
 	                map.put(c, 1);
 	            }
