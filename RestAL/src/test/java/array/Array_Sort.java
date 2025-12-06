@@ -3,14 +3,14 @@ package array;
 public class Array_Sort {
 	public static void main(String[] args) { 
 		int a[]= {12,4,1,9,7}; 
-		 System.out.println("local3 branch");
+		 System.out.println("local4 branch");
 		for(int i=0;i<a.length;i++) {
 			for(int j=i+1;j<a.length;j++)
 				if(a[i]<a[j]) 
 				{ int temp=a[i]; 
-				 System.out.println("local3 branch");
+				 System.out.println("local4 branch");
 				a[i]=a[j];
-				 System.out.println("local3 branch");
+				 System.out.println("local4 branch");
 				a[j]=temp;}
 			}
 		for(int i=0;i<a.length;i++){
@@ -21,7 +21,7 @@ public class Array_Sort {
 		for (int i=0;i<b.length;i++ ) {
 			 for(int j=0;j<b.length-1-i;j++) {
 				 if(b[j]<b[j+1]) {
-					  System.out.println("local2 branch");
+					 System.out.println("local4 branch");
 					 int temp=b[j]; 
 					 b[j]=b[j+1]; 
 					  System.out.println("local2 branch");
